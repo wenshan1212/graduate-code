@@ -26,7 +26,7 @@ seed_test = 1337
 seed_reproducer(seed = seed_test)
 
 data_root, split_name = '/workspace/BCP/code/pancreas/data_lists/pancreas/data', 'pancreas'
-result_dir = 'result/cutmix_2.02/'
+result_dir = 'result/cutmix/'
 mkdir(result_dir)
 batch_size, lr = 2, 1e-3
 pretraining_epochs, self_training_epochs = 60, 200
