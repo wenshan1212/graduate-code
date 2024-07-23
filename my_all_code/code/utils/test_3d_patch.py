@@ -134,7 +134,7 @@ def test_single_case(model, image, stride_xy, stride_z, patch_size, num_classes=
                 cnt[xs:xs+patch_size[0], ys:ys+patch_size[1], zs:zs+patch_size[2]] \
                   = cnt[xs:xs+patch_size[0], ys:ys+patch_size[1], zs:zs+patch_size[2]] + 1
     score_map = score_map/np.expand_dims(cnt,axis=0)
-    label_map = (score_map[0]>0.5).astype(np.int)
+    label_map = (score_map[0]>0.5).astype(int)
     if add_pad:
         label_map = label_map[wl_pad:wl_pad+w,hl_pad:hl_pad+h,dl_pad:dl_pad+d]
         score_map = score_map[:,wl_pad:wl_pad+w,hl_pad:hl_pad+h,dl_pad:dl_pad+d]
