@@ -1,0 +1,9 @@
+opencv-python-headless
+matplotlib
+imageio
+tensorboardX
+scikit-image
+h5py
+medpy
+nibabel
+scikit-learn
