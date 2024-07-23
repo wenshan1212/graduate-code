@@ -73,9 +73,9 @@ MY DEVICES:
 
 * If you want to inference ACDC dataset with 7% labeled data, you need to enter ```python test_ACDC.py --labelnum 7```, and need to put ACDC_7_model.pth into my_all_code/code/model/BCP/ACDC_BCP_7_labeled/self_train, and renamed "unet_best_model.pth"
 
-* If you want to inference LA dataset with 4% labeled data, you need to enter ```python test_LA.py --labelnum 4```, and need to put LA_4_model.pth into my_all_code/code/model/BCP/LA_BCP_4_labeled/self_train, and renamed "Vnet_best_model.pth"
+* If you want to inference LA dataset with 4% labeled data, you need to enter ```python test_LA.py --labelnum 4```, and need to put LA_4_model.pth into my_all_code/code/model/BCP/LA_BCP_4_labeled/self_train, and renamed "VNet_best_model.pth"
 
-* If you want to inference LA dataset with 8% labeled data, you need to enter ```python test_LA.py --labelnum 8```, and need to put LA_8_model.pth into my_all_code/code/model/BCP/LA_BCP_8_labeled/self_train, and renamed "Vnet_best_model.pth"
+* If you want to inference LA dataset with 8% labeled data, you need to enter ```python test_LA.py --labelnum 8```, and need to put LA_8_model.pth into my_all_code/code/model/BCP/LA_BCP_8_labeled/self_train, and renamed "VNet_best_model.pth"
 
 * If you want to inference pancreas dataset, you need to enter ```python test_pancreas.py```
 
