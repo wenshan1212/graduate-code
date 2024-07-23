@@ -233,4 +233,4 @@ if __name__ == '__main__':
 
 
 
-#### python -m torch.distributed.launch train_pancreas_labelnum20_train.py
+#### python -m torch.distributed.launch pancreas_labelnum20_train.py
