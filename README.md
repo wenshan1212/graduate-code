@@ -77,7 +77,7 @@ MY DEVICES:
 
 * If you want to inference LA dataset with 8% labeled data, you need to enter ```python test_LA.py --labelnum 8```, and need to put LA_8_model.pth into my_all_code/code/model/BCP/LA_BCP_8_labeled/self_train, and renamed "VNet_best_model.pth"
 
-* If you want to inference pancreas dataset, you need to enter ```python test_pancreas.py```, and need to put pancreas_20_model.pth into my_all_code/code/pancreas/result/cutmix/self_train/, and renamed "best_ema_20_self.pth"
+* If you want to inference pancreas-NIH dataset, you need to enter ```python test_pancreas.py```, and need to put pancreas_20_model.pth into my_all_code/code/pancreas/result/cutmix/self_train/, and renamed "best_ema_20_self.pth"
 
 
 
