@@ -513,8 +513,8 @@ def main(args):
         torch.manual_seed(args.seed)
         torch.cuda.manual_seed(args.seed)
 
-    pre_snapshot_path = "./model/BCP/ACDC_{}_{}_labeled_test/pre_train".format(args.exp, args.labelnum)
-    self_snapshot_path = "./model/BCP/ACDC_{}_{}_labeled_test/self_train".format(args.exp, args.labelnum)
+    pre_snapshot_path = "./model/BCP/ACDC_{}_{}_labeled/pre_train".format(args.exp, args.labelnum)
+    self_snapshot_path = "./model/BCP/ACDC_{}_{}_labeled/self_train".format(args.exp, args.labelnum)
     
     
     for snapshot_path in [pre_snapshot_path, self_snapshot_path]:
