@@ -25,7 +25,7 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '0,1'
 seed_test = 1337
 seed_reproducer(seed = seed_test)
 
-data_root, split_name = '/workspace/BCP/code/pancreas/data_lists/pancreas/data', 'pancreas'
+data_root, split_name = '/workspace/my_all_code/code/pancreas/data_lists/pancreas/data', 'pancreas'
 result_dir = 'result/cutmix/'
 mkdir(result_dir)
 batch_size, lr = 2, 1e-3
