@@ -69,13 +69,13 @@ MY DEVICES:
 
 
 ### Evaluation
-* If you want to inference ACDC dataset with 3% labeled data, you need to enter ```python test_ACDC.py --labelnum 3```, and need to put ACDC_3_model.pth into my_all_code/code/model/BCP/ACDC_BCP_3_labeled/self_train, and renamed "unet_best_model.pth"
+* If you want to inference ACDC dataset with 5% labeled data, you need to enter ```python test_ACDC.py --labelnum 3```, and need to put ACDC_3_model.pth into my_all_code/code/model/BCP/ACDC_BCP_3_labeled/self_train, and renamed "unet_best_model.pth"
 
-* If you want to inference ACDC dataset with 7% labeled data, you need to enter ```python test_ACDC.py --labelnum 7```, and need to put ACDC_7_model.pth into my_all_code/code/model/BCP/ACDC_BCP_7_labeled/self_train, and renamed "unet_best_model.pth"
+* If you want to inference ACDC dataset with 10% labeled data, you need to enter ```python test_ACDC.py --labelnum 7```, and need to put ACDC_7_model.pth into my_all_code/code/model/BCP/ACDC_BCP_7_labeled/self_train, and renamed "unet_best_model.pth"
 
-* If you want to inference LA dataset with 4% labeled data, you need to enter ```python test_LA.py --labelnum 4```, and need to put LA_4_model.pth into my_all_code/code/model/BCP/LA_BCP_4_labeled/self_train, and renamed "VNet_best_model.pth"
+* If you want to inference LA dataset with 5% labeled data, you need to enter ```python test_LA.py --labelnum 4```, and need to put LA_4_model.pth into my_all_code/code/model/BCP/LA_BCP_4_labeled/self_train, and renamed "VNet_best_model.pth"
 
-* If you want to inference LA dataset with 8% labeled data, you need to enter ```python test_LA.py --labelnum 8```, and need to put LA_8_model.pth into my_all_code/code/model/BCP/LA_BCP_8_labeled/self_train, and renamed "VNet_best_model.pth"
+* If you want to inference LA dataset with 10% labeled data, you need to enter ```python test_LA.py --labelnum 8```, and need to put LA_8_model.pth into my_all_code/code/model/BCP/LA_BCP_8_labeled/self_train, and renamed "VNet_best_model.pth"
 
 * If you want to inference pancreas-NIH dataset, you need to enter ```python test_pancreas.py```, and need to put pancreas_20_model.pth into my_all_code/code/pancreas/result/cutmix/self_train/, and renamed "best_ema_20_self.pth"
 
