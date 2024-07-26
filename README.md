@@ -86,10 +86,10 @@ MY DEVICES:
     pip install -r requirement.txt
     
 #### start training
-* If you want to train ACDC dataset with 3% labeled data, you need to enter ```python ACDC_labelnum3_train.py --run_mode pretrain_then_selftrain```
-* If you want to train ACDC dataset with 7% labeled data, you need to enter ```python ACDC_labelnum7_train.py --run_mode pretrain_then_selftrain```
-* If you want to train LA dataset with 4% labeled data, you need to enter ```python LA_labelnum4_train.py ```
-* If you want to train LA dataset with 8% labeled data, you need to enter ```python LA_labelnum8_train.py ```
+* If you want to train ACDC dataset with 5% labeled data, you need to enter ```python ACDC_labelnum3_train.py --run_mode pretrain_then_selftrain```
+* If you want to train ACDC dataset with 10% labeled data, you need to enter ```python ACDC_labelnum7_train.py --run_mode pretrain_then_selftrain```
+* If you want to train LA dataset with 5% labeled data, you need to enter ```python LA_labelnum4_train.py ```
+* If you want to train LA dataset with 10% labeled data, you need to enter ```python LA_labelnum8_train.py ```
 * If you want to train pancreas-NIH dataset with 20% labeled data, you need to enter ```python -m torch.distributed.launch pancreas_labelnum20_train.py ```
 
 #### Tips:
